@@ -1,3 +1,10 @@
+# Svelte Demo
+
+I'm using this repo to learn about svelte!
+
+---
+
+
 # Svelte + Vite
 
 This template should help get you started developing with Svelte in Vite.
