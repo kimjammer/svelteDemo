@@ -1,20 +1,25 @@
 {
-  "name": "sveltedemo",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
-    "attractions": "^3.7.0",
-    "postcss": "^8.4.14",
-    "sass": "^1.52.1",
-    "svelte": "^3.44.0",
-    "svelte-preprocess": "^4.10.6",
-    "vite": "^2.9.9"
-  }
+	"name": "sveltekit",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview",
+		"prepare": "svelte-kit sync"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"attractions": "^3.7.0",
+		"postcss": "^8.4.14",
+		"sass": "^1.52.2",
+		"svelte": "^3.46.0",
+		"svelte-preprocess": "^4.10.6"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fontsource/fira-mono": "^4.5.0",
+		"cookie": "^0.4.1"
+	}
 }
