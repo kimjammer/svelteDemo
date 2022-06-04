@@ -1,3 +1,11 @@
+# Svelte Demo
+
+This is the repo I'm using to learn about svelte and sveltekit!
+
+For now, I'm trying to emulate my robotic's team's scouting page. If this project goes well, it will become the new scouting page.
+
+---
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
